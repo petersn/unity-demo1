@@ -30,7 +30,7 @@ In `Builds/` you can find the game pre-build in [`LinuxBuild001.tar.bz2`](https:
 License
 -------
 
-Everything is CC0/Public Domain, with the exception of `Assets/RippleEffect`, which is from here: [https://github.com/keijiro/RippleEffect]
+Everything is CC0/Public Domain, with the exception of `Assets/RippleEffect`, which is from [this GitHub repo](https://github.com/keijiro/RippleEffect).
 Said project simply says "License: You can use the scripts and the shaders in this project as you like.", which I'm interpreting as being a relatively general release?
 So, with the possible exception of the `Assets/RippleEffect` directory, you can do whatever you want with the rest of it.
 
