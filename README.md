@@ -2,7 +2,7 @@ Unity Demo 1
 ============
 
 I played around for a couple days making this little demo platformer in Unity; it was my first time really playing with Unity in any non-trivial capacity.
-I was inspired by [Celeste](http://www.celestegame.com/) when making the sprites.
+I made and animated all of image assets and characters in [Aseprite](https://www.aseprite.org/).
 
 Here's a screenshot:
 
@@ -28,8 +28,6 @@ Controls
 
 Sprite Workflow
 ---------------
-
-I made and animated all of image assets and characters in [Aseprite](https://www.aseprite.org/).
 
 The version of Unity I am using (2017.30p2) has some really bad behavior of having the color of neighboring pixels bleed over at the edges of each tile in a sprite sheet.
 To work around this my workflow was to save my `.aseprite` files into `Assets/Sprites`, export their sprite sheets into `Assets/Sprites/raw`, then write down the tile size of the sprite sheet into `Assets/Python/image-descs.json`, then rerun the script `Assets/Python/borderize.py`.
