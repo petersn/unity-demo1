@@ -8,20 +8,6 @@ Here's a screenshot:
 
 ![Screenshot](https://github.com/petersn/unity-demo1/blob/master/screenshot.png)
 
-Sprite Workflow
----------------
-
-I made and animated all of image assets and characters in [Aseprite](https://www.aseprite.org/).
-
-The version of Unity I am using (2017.30p2) has some really bad behavior of having the color of neighboring pixels bleed over at the edges of each tile in a sprite sheet.
-To work around this my workflow was to save my `.aseprite` files into `Assets/Sprites`, export their sprite sheets into `Assets/Sprites/raw`, then write down the tile size of the sprite sheet into `Assets/Python/image-descs.json`, then rerun the script `Assets/Python/borderize.py`.
-This script takes a sprite sheet whose cells are n by m pixels each and produces one whose cells are (n + 2) by (m + 2) pixels each, made by duplicating the outermost ring of pixels.
-These processed sprite sheets get written into `Assets/Sprites/`
-I would then import the processed sprite sheets into Unity, and use its nice offset features to pull out just the n by m sized cells ignoring the borders.
-However, the simple presense of the border in the image texture eliminates the ugly color bleeding artifacts at the edges of sprites.
-
-This script and workflow is probably the only useful thing you can borrow from this repo.
-
 Binaries
 --------
 
@@ -36,6 +22,20 @@ Controls
 * Left control key to dash.
 
 (I was silly, and only the arrow keys are rebindable using Unity's reconfigurable input system. The jump and dash keys are hard-coded.)
+
+Sprite Workflow
+---------------
+
+I made and animated all of image assets and characters in [Aseprite](https://www.aseprite.org/).
+
+The version of Unity I am using (2017.30p2) has some really bad behavior of having the color of neighboring pixels bleed over at the edges of each tile in a sprite sheet.
+To work around this my workflow was to save my `.aseprite` files into `Assets/Sprites`, export their sprite sheets into `Assets/Sprites/raw`, then write down the tile size of the sprite sheet into `Assets/Python/image-descs.json`, then rerun the script `Assets/Python/borderize.py`.
+This script takes a sprite sheet whose cells are n by m pixels each and produces one whose cells are (n + 2) by (m + 2) pixels each, made by duplicating the outermost ring of pixels.
+These processed sprite sheets get written into `Assets/Sprites/`
+I would then import the processed sprite sheets into Unity, and use its nice offset features to pull out just the n by m sized cells ignoring the borders.
+However, the simple presense of the border in the image texture eliminates the ugly color bleeding artifacts at the edges of sprites.
+
+This script and workflow is probably the only useful thing you can borrow from this repo.
 
 License
 -------
