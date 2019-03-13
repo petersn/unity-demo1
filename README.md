@@ -32,5 +32,5 @@ License
 
 Everything is CC0/Public Domain, with the exception of `Assets/RippleEffect`, which is from [this GitHub repo](https://github.com/keijiro/RippleEffect).
 Said project simply says "License: You can use the scripts and the shaders in this project as you like.", which I'm interpreting as being a relatively general release?
-So, with the possible exception of the `Assets/RippleEffect` directory, you can do whatever you want with the rest of it.
+So, with the possible exception of the `Assets/RippleEffect` directory, you can do whatever you want with any of it.
 
