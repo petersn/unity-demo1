@@ -19,7 +19,7 @@ These processed sprite sheets get written into `Assets/Sprites/`
 I would then import the processed sprite sheets into Unity, and use its nice offset features to pull out just the n by m sized cells ignoring the borders.
 However, the simple presense of the border in the image texture eliminates the ugly color bleeding artifacts at the edges of sprites.
 
-This script and work-flow is probably the only useful thing you can borrow from this repo.
+This script and workflow is probably the only useful thing you can borrow from this repo.
 
 Binaries
 --------
