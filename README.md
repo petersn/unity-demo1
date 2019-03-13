@@ -11,8 +11,11 @@ Here's a screenshot:
 Binaries
 --------
 
+**Download for Windows:** [`WinBuild001.zip`](https://github.com/petersn/unity-demo1/raw/master/Builds/WinBuild001.zip)
+
+**Download for Linux:** [`LinuxBuild001.tar.bz2`](https://github.com/petersn/unity-demo1/raw/master/Builds/LinuxBuild001.tar.bz2)
+
 Because this was a one-off project from a while ago that I'm putting on GitHub largely for my own personal archival purposes, I'm committing the faux pas of committing built binaries, because I don't expect to ever change or rebuild the project.
-In `Builds/` you can find the game pre-build in [`LinuxBuild001.tar.bz2`](https://github.com/petersn/unity-demo1/raw/master/Builds/LinuxBuild001.tar.bz2) and [`WinBuild001.zip`](https://github.com/petersn/unity-demo1/raw/master/Builds/WinBuild001.zip).
 
 Controls
 --------
