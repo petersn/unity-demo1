@@ -5,7 +5,7 @@ I played around for a couple days making this little demo platformer in Unity; i
 
 Here's a screenshot:
 
-[[https://github.com/petersn/unity-demo1/blob/master/screenshot.png|alt=Screenshot]]
+![Screenshot](https://github.com/petersn/unity-demo1/blob/master/screenshot.png)
 
 Sprite Workflow
 ---------------
@@ -25,7 +25,7 @@ Binaries
 --------
 
 Because this was a one-off project from a while ago that I'm putting on GitHub largely for my own personal archival purposes, I'm committing the faux pas of committing built binaries, because I don't expect to ever change or rebuild the project.
-In `Builds/` you can find the game pre-build in [`LinuxBuild001.tar.bz2`](https://github.com/petersn/unity-demo1/raw/master/Builds/LinuxBuild001.tar.bz2) and [`WinBuild001.zip`](https://github.com/petersn/unity-demo1/raw/master/Builds/WindowsBuild001.zip).
+In `Builds/` you can find the game pre-build in [`LinuxBuild001.tar.bz2`](https://github.com/petersn/unity-demo1/raw/master/Builds/LinuxBuild001.tar.bz2) and [`WinBuild001.zip`](https://github.com/petersn/unity-demo1/raw/master/Builds/WinBuild001.zip).
 
 License
 -------
