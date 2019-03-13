@@ -30,7 +30,7 @@ Sprite Workflow
 ---------------
 
 The version of Unity I am using (2017.30p2) has some really bad behavior of having the color of neighboring pixels bleed over at the edges of each tile in a sprite sheet.
-To work around this my workflow was to save my `.aseprite` files into `Assets/Sprites`, export their sprite sheets into `Assets/Sprites/raw`, then write down the tile size of the sprite sheet into `Assets/Python/image-descs.json`, then rerun the script `Assets/Python/borderize.py`.
+To work around this my workflow was to save my `.aseprite` files into `Assets/Sprites/`, export their sprite sheets into `Assets/Sprites/raw/`, then write down the tile size of the sprite sheet into `Assets/Python/image-descs.json`, then rerun the script `Assets/Python/borderize.py`.
 This script takes a sprite sheet whose cells are n by m pixels each and produces one whose cells are (n + 2) by (m + 2) pixels each, made by duplicating the outermost ring of pixels.
 These processed sprite sheets get written into `Assets/Sprites/`
 I would then import the processed sprite sheets into Unity, and use its nice offset features to pull out just the n by m sized cells ignoring the borders.
@@ -41,7 +41,7 @@ This script and workflow is probably the only useful thing you can borrow from t
 License
 -------
 
-Everything is CC0/Public Domain, with the exception of `Assets/RippleEffect`, which is from [this GitHub repo](https://github.com/keijiro/RippleEffect).
+Everything is CC0/Public Domain, with the exception of `Assets/RippleEffect/`, which is from [this GitHub repo](https://github.com/keijiro/RippleEffect).
 Said project simply says "License: You can use the scripts and the shaders in this project as you like.", which I'm interpreting as being a relatively general release?
-So, with the possible exception of the `Assets/RippleEffect` directory, you can do whatever you want with any of it.
+So, with the possible exception of the `Assets/RippleEffect/` directory, you can do whatever you want with any of it.
 
