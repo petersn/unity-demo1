@@ -2,6 +2,7 @@ Unity Demo 1
 ============
 
 I played around for a couple days making this little demo platformer in Unity; it was my first time really playing with Unity in any non-trivial capacity.
+I was inspired by [Celeste](http://www.celestegame.com/) when making the sprites.
 
 Here's a screenshot:
 
@@ -26,6 +27,15 @@ Binaries
 
 Because this was a one-off project from a while ago that I'm putting on GitHub largely for my own personal archival purposes, I'm committing the faux pas of committing built binaries, because I don't expect to ever change or rebuild the project.
 In `Builds/` you can find the game pre-build in [`LinuxBuild001.tar.bz2`](https://github.com/petersn/unity-demo1/raw/master/Builds/LinuxBuild001.tar.bz2) and [`WinBuild001.zip`](https://github.com/petersn/unity-demo1/raw/master/Builds/WinBuild001.zip).
+
+Controls
+--------
+
+* Left/right arrows to move.
+* Left shift key to jump.
+* Left control key to dash.
+
+(I was silly, and only the arrow keys are rebindable using Unity's reconfigurable input system. The jump and dash keys are hard-coded.)
 
 License
 -------
